@@ -9,6 +9,7 @@ _The Nintendo 64 is a 5th generation gaming console released by Nintendo in 1996
 | :---: | :---: | :---: | :---: | :---: |
 | [Mupen64plus](http://www.mupen64plus.org) | n64  | .z64 .n64 .v64 | none | /opt/retropie/configs/n64/InputAutoCfg.ini **and** /opt/retropie/configs/n64/mupen64plus.cfg|
 | [lr-mupen64plus](https://github.com/libretro/mupen64plus-libretro) | n64 | .z64 .n64 .v64 .zip | none | /opt/retropie/configs/n64/retroarch.cfg |
+| [lr-mupen64plus-next](https://github.com/libretro/mupen64plus-libretro) | n64 | .z64 .n64 .v64 .zip | none | /opt/retropie/configs/n64/retroarch.cfg |
 
 
 ## Emulators: [Mupen64plus](https://code.google.com/p/mupen64plus/), [lr-mupen64plus](https://github.com/libretro/mupen64plus-libretro)
@@ -17,12 +18,14 @@ While the lr-mupen64plus core has the convenience of RetroArch configurations an
 
 You can choose between the RICE, glesN64 and GLideN64 video plugin from the [runcommand](Runcommand.md) menu- you may have to test out each one to see which works best- but you can also check the compatibility list below.
 
-Note that you need a Raspberry Pi 2 if you want any decent N64 performance and even then it is hit and miss.
+Note that with the Raspberry Pi 2/3 N64 performance is hit and miss.
+
+With Raspberry Pi 4 performance is higher but still not 100%.
 
 ## ROMS
 Accepted File Extensions: **.z64 .n64 .v64 .zip**
 
-**Note:** the lr-mupen64plus retroarch core can directly load compressed zip files.
+**Note:** the lr-mupen64plus-next or lr-mupen64plus retroarch cores can directly load compressed zip files.
 
 Place your Nintendo 64 ROMs in 
 ```
@@ -31,7 +34,7 @@ Place your Nintendo 64 ROMs in
 
 ## Rom Compatibility Lists
 
-[Rom Compatibility List](https://docs.google.com/spreadsheets/d/1Wjzbu90l6eCEW1w6ar9NtfyDBQrSPILQL5MbRSpYSzw/edit?usp=sharing) feel free to contribute! (the file is locked :/)
+[Rom Compatibility List](https://docs.google.com/spreadsheets/d/1Wjzbu90l6eCEW1w6ar9NtfyDBQrSPILQL5MbRSpYSzw/edit?usp=sharing) feel free to contribute! (Starting to be updated with Pi4 Data)
 
 [Secondary Rom Compatibility](https://docs.google.com/spreadsheets/d/1Sn3Ks3Xv8cIx3-LGCozVFF7wGLagpVG0csWybnwFHXk/edit) list with testing on Raspberry Pi 3 need to merge 2 lists. 
 
